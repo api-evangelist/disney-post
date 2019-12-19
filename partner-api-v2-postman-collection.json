@@ -1,0 +1,292 @@
+{
+    "id": "ad333400090e665c8b48576d221ac292",
+    "name": "Partner API v2",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "5bd14f9de2525ab13700dc68a88c2e11",
+            "name": "",
+            "url": "\/v2\/identity.json\/gp\/{google_plus_id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "google_plus_id",
+                    "description": "A Google+ ID (e.g. 112620727907435773834)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ad333400090e665c8b48576d221ac292",
+            "rawModeData": ""
+        },
+        {
+            "id": "f20f83462ef8f412c94eba570b85334c",
+            "name": "",
+            "url": "\/v2\/identity.json\/ig\/{instagram_id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "instagram_id",
+                    "description": "An Instagram ID (e.g. 816029)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ad333400090e665c8b48576d221ac292",
+            "rawModeData": ""
+        },
+        {
+            "id": "4bc05a8eb314141eeef64183a941acef",
+            "name": "",
+            "url": "\/v2\/identity.json\/klout\/{klout_id}\/tw",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "klout_id",
+                    "description": "A KloutId (like 635263)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ad333400090e665c8b48576d221ac292",
+            "rawModeData": ""
+        },
+        {
+            "id": "36e207cf731bdb74babdd26c055fcb53",
+            "name": "",
+            "url": "\/v2\/identity.json\/tw\/{twitter_id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "twitter_id",
+                    "description": "A twitter ID (e.g. 500042487)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ad333400090e665c8b48576d221ac292",
+            "rawModeData": ""
+        },
+        {
+            "id": "22863cbdd769a891ebdeb1c46d393f90",
+            "name": "",
+            "url": "\/v2\/identity.json\/twitter",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "screenName",
+                    "description": "A twitter screen name (e.g. jtimberlake)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ad333400090e665c8b48576d221ac292",
+            "rawModeData": ""
+        },
+        {
+            "id": "fae4a495fa36465386f0c5c6e7afa721",
+            "name": "",
+            "url": "\/v2\/user.json\/{kloutId}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "kloutId",
+                    "description": "A kloutId (like 635263)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ad333400090e665c8b48576d221ac292",
+            "rawModeData": ""
+        },
+        {
+            "id": "3c1a8d6e8f08e4c0904a46ce98c7b118",
+            "name": "",
+            "url": "\/v2\/user.json\/{kloutId}\/influence",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "kloutId",
+                    "description": "A kloutId (like 635263)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ad333400090e665c8b48576d221ac292",
+            "rawModeData": ""
+        },
+        {
+            "id": "77242594e33e40ef81a434c235dbbf25",
+            "name": "",
+            "url": "\/v2\/user.json\/{kloutId}\/score",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "kloutId",
+                    "description": "A kloutId (like 635263)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ad333400090e665c8b48576d221ac292",
+            "rawModeData": ""
+        },
+        {
+            "id": "f31035eecde49ce2bb49ce6548cb1ac5",
+            "name": "",
+            "url": "\/v2\/user.json\/{kloutId}\/topics",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "kloutId",
+                    "description": "A kloutId (like 635263)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ad333400090e665c8b48576d221ac292",
+            "rawModeData": ""
+        }
+    ]
+}
