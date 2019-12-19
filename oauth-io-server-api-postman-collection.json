@@ -1,0 +1,379 @@
+{
+    "id": "0d9895885101a1ba0695a8fc5b3da4cc",
+    "name": "OAuth.io Server API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "d0181fe92e93fa8feb12ce3fc86e877a",
+            "name": "Authorize a user",
+            "url": "oauth.io\/\/oauth2\/authorize",
+            "description": "This endpoint is called when the user allow or deny permission \nin the decision page\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "client_id",
+                    "description": "Client ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "decision",
+                    "description": "Must be set to '1' if the user allowed the app, or '0' if the user denied the authorization",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "user_id",
+                    "description": "User ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "scope",
+                    "description": "List of permission (space delimiter)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "redirect_uri",
+                    "description": "Redirect URI",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "response_type",
+                    "description": "Response type",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d9895885101a1ba0695a8fc5b3da4cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "e559fb3b85984635adf1ce211688956b",
+            "name": "Access token retrieval (with code) or refresh (with refresh token)",
+            "url": "oauth.io\/\/oauth2\/token",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "client_id",
+                    "description": "Client ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "client_secret",
+                    "description": "Client Secret",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "grant_type",
+                    "description": "authorization_code or client_credential or refresh_token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "scope",
+                    "description": "Space separated scope list (e.g. \"email friends_list\"). Used only if grant_type = client_credential",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "code",
+                    "description": "Code received from \/authorize step. Required if grant_type = authorization_code",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "refresh_token",
+                    "description": "Refresh token (long-live token) used to refresh the access token (short-live token). Required if grant_type = refresh_token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d9895885101a1ba0695a8fc5b3da4cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "87826adb44528ab7e7e6dc712c1f2a6a",
+            "name": "Check the validity of an access token and give back his permission, \nclient_id and user_id\n",
+            "url": "oauth.io\/\/oauth2\/check",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "access_token",
+                    "description": "The access token you want to check",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d9895885101a1ba0695a8fc5b3da4cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "a211ab18a9d82c8dc6390782ac01c2c9",
+            "name": "Create a client",
+            "url": "oauth.io\/\/oauth2\/clients",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "name",
+                    "description": "Name of the client's app",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "description",
+                    "description": "Description of the client's app",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "redirect_uri",
+                    "description": "Whitelisted redirect uri",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "user_id",
+                    "description": "User id of the client's app",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d9895885101a1ba0695a8fc5b3da4cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "d23aae4e6a50230d78f6729be5f7ed7c",
+            "name": "Update a client",
+            "url": "oauth.io\/\/oauth2\/clients",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "Client id of the app to update",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "name",
+                    "description": "Name of the client's app",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "description",
+                    "description": "Description of the client's app",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "redirect_uri",
+                    "description": "Whitelisted redirect uri",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "user_id",
+                    "description": "User id of the client's app",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d9895885101a1ba0695a8fc5b3da4cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "643714fda7fe535c1e574be369bab4cb",
+            "name": "Retrieves a client by its client_id",
+            "url": "oauth.io\/\/oauth2\/clients\/:client_id",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d9895885101a1ba0695a8fc5b3da4cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "d09edadac54b896394bd42640ec6d888",
+            "name": "Remove a client by its client_id",
+            "url": "oauth.io\/\/oauth2\/clients\/:client_id",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d9895885101a1ba0695a8fc5b3da4cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "b463e50b4547f0d90c06e97c22da55cd",
+            "name": "Regenerate the API key's client",
+            "url": "oauth.io\/\/oauth2\/clients\/keygen\/:client_id",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d9895885101a1ba0695a8fc5b3da4cc",
+            "rawModeData": ""
+        },
+        {
+            "id": "9cae2334b7d446f89548add22b0e7ac6",
+            "name": "Retrieves all clients, and filters by user_id if given",
+            "url": "oauth.io\/\/oauth2\/clients\/all\/:user_id",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d9895885101a1ba0695a8fc5b3da4cc",
+            "rawModeData": ""
+        }
+    ]
+}
