@@ -7,8 +7,8 @@
         "have api",
         "imports"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/disney-post\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -22,7 +22,7 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/website-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/disney-post\/master\/website-api-openapi.json"
                 },
                 {
                     "type": "x-openapi",
@@ -30,7 +30,7 @@
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/website-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/disney-post\/master\/website-api-postman-collection.json"
                 }
             ]
         },
@@ -44,7 +44,7 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tenant-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/disney-post\/master\/tenant-api-openapi.json"
                 },
                 {
                     "type": "x-openapi",
@@ -52,7 +52,7 @@
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tenant-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/disney-post\/master\/tenant-api-postman-collection.json"
                 }
             ]
         },
@@ -70,11 +70,11 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/partner-api-v2-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/disney-post\/master\/partner-api-v2-openapi.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/partner-api-v2-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/disney-post\/master\/partner-api-v2-postman-collection.json"
                 }
             ]
         },
@@ -92,11 +92,11 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/quandl-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/disney-post\/master\/quandl-api-openapi.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/quandl-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/disney-post\/master\/quandl-api-postman-collection.json"
                 }
             ]
         },
@@ -114,11 +114,11 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/oauth-io-server-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/disney-post\/master\/oauth-io-server-api-openapi.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/oauth-io-server-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/disney-post\/master\/oauth-io-server-api-postman-collection.json"
                 }
             ]
         },
@@ -136,11 +136,11 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/gov-uk-search-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/disney-post\/master\/gov-uk-search-openapi.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/gov-uk-search-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/disney-post\/master\/gov-uk-search-postman-collection.json"
                 }
             ]
         },
@@ -158,17 +158,21 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/disney-post-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/disney-post\/master\/disney-post-openapi.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/disney-post-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/disney-post\/master\/disney-post-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Crunchbase",
             "url": "https:\/\/crunchbase.com\/organization\/the-walt-disney-"
