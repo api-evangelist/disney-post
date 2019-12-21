@@ -1,5 +1,5 @@
 {
-    "id": "0d9895885101a1ba0695a8fc5b3da4cc",
+    "id": "c44bbae74917467ce1932cbf31ddec6c",
     "name": "OAuth.io Server API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "d0181fe92e93fa8feb12ce3fc86e877a",
+            "id": "27bf01868006da16033069a92bd03132",
             "name": "Authorize a user",
             "url": "oauth.io\/\/oauth2\/authorize",
             "description": "This endpoint is called when the user allow or deny permission \nin the decision page\n",
@@ -72,11 +72,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d9895885101a1ba0695a8fc5b3da4cc",
+            "collectionId": "c44bbae74917467ce1932cbf31ddec6c",
             "rawModeData": ""
         },
         {
-            "id": "e559fb3b85984635adf1ce211688956b",
+            "id": "40136e2925eb665ce37239266a3b472d",
             "name": "Access token retrieval (with code) or refresh (with refresh token)",
             "url": "oauth.io\/\/oauth2\/token",
             "description": "",
@@ -138,11 +138,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d9895885101a1ba0695a8fc5b3da4cc",
+            "collectionId": "c44bbae74917467ce1932cbf31ddec6c",
             "rawModeData": ""
         },
         {
-            "id": "87826adb44528ab7e7e6dc712c1f2a6a",
+            "id": "7d82f09b91bca27e0f4b3b996a0f445a",
             "name": "Check the validity of an access token and give back his permission, \nclient_id and user_id\n",
             "url": "oauth.io\/\/oauth2\/check",
             "description": "",
@@ -169,11 +169,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d9895885101a1ba0695a8fc5b3da4cc",
+            "collectionId": "c44bbae74917467ce1932cbf31ddec6c",
             "rawModeData": ""
         },
         {
-            "id": "a211ab18a9d82c8dc6390782ac01c2c9",
+            "id": "8e106c0bb02d9e4143380b799511e0e1",
             "name": "Create a client",
             "url": "oauth.io\/\/oauth2\/clients",
             "description": "",
@@ -221,11 +221,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d9895885101a1ba0695a8fc5b3da4cc",
+            "collectionId": "c44bbae74917467ce1932cbf31ddec6c",
             "rawModeData": ""
         },
         {
-            "id": "d23aae4e6a50230d78f6729be5f7ed7c",
+            "id": "d572c7fc8b1cfb85cbd19a5d789774c7",
             "name": "Update a client",
             "url": "oauth.io\/\/oauth2\/clients",
             "description": "",
@@ -280,11 +280,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d9895885101a1ba0695a8fc5b3da4cc",
+            "collectionId": "c44bbae74917467ce1932cbf31ddec6c",
             "rawModeData": ""
         },
         {
-            "id": "643714fda7fe535c1e574be369bab4cb",
+            "id": "72dd091d854b76fcf2ad95546413dbd6",
             "name": "Retrieves a client by its client_id",
             "url": "oauth.io\/\/oauth2\/clients\/:client_id",
             "description": "",
@@ -303,11 +303,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d9895885101a1ba0695a8fc5b3da4cc",
+            "collectionId": "c44bbae74917467ce1932cbf31ddec6c",
             "rawModeData": ""
         },
         {
-            "id": "d09edadac54b896394bd42640ec6d888",
+            "id": "6edcd599e6f40be7aeeccec34b6c49d0",
             "name": "Remove a client by its client_id",
             "url": "oauth.io\/\/oauth2\/clients\/:client_id",
             "description": "",
@@ -326,11 +326,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d9895885101a1ba0695a8fc5b3da4cc",
+            "collectionId": "c44bbae74917467ce1932cbf31ddec6c",
             "rawModeData": ""
         },
         {
-            "id": "b463e50b4547f0d90c06e97c22da55cd",
+            "id": "974c40251e33d4e8d7473ae592d15fe1",
             "name": "Regenerate the API key's client",
             "url": "oauth.io\/\/oauth2\/clients\/keygen\/:client_id",
             "description": "",
@@ -349,11 +349,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d9895885101a1ba0695a8fc5b3da4cc",
+            "collectionId": "c44bbae74917467ce1932cbf31ddec6c",
             "rawModeData": ""
         },
         {
-            "id": "9cae2334b7d446f89548add22b0e7ac6",
+            "id": "885803fcfc79666788dff28818e5bf28",
             "name": "Retrieves all clients, and filters by user_id if given",
             "url": "oauth.io\/\/oauth2\/clients\/all\/:user_id",
             "description": "",
@@ -372,7 +372,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d9895885101a1ba0695a8fc5b3da4cc",
+            "collectionId": "c44bbae74917467ce1932cbf31ddec6c",
             "rawModeData": ""
         }
     ]
